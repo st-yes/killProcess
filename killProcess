@@ -1,0 +1,13 @@
+#! /bin/bash
+
+if [ -z "$1" ]; then #check if argument is empty
+	echo "PROVIDE NAME OF PROCESS"
+	exit 1
+fi
+processName = "$1"
+
+pid = $(ps aux | grep "$processName" | grep -v grep | awk '{print $2}')
+
+echo "$pid"
+
+# echo "process name $1"
