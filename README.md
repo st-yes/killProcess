@@ -6,7 +6,7 @@
 </p>
 
 <p>
-a small python script used to found a running process by name and kill it, additionally an alias <strong>kp</strong> is created for a more convenient use
+A small python script used to find a running process by name and kill it, additionally an alias <strong>kp</strong> is created for a more convenient use
 </p>
 
 ## BUILT WITH
@@ -27,7 +27,7 @@ make
 ```
 ## USAGE
 
-- an alias is created and appended to your shell config file i.e .zshrc
+- an alias is created and appended to your shell config file (exmple: .zshrc)
 ### running the script:
 1. with command line arguments
 ```bash
